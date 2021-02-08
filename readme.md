@@ -2,7 +2,7 @@
 Course project of CSE221 Data Structures, UNIST
 ```
 
- In binary search trees, each node stores only one item, and the heightof the tree is afactor of *log* n.Such treesareinefficient when stored ina secondary storage device (e.g. hard disk) having slow access speed,because nodes that must be read to search are spread all around the address space.Therefore, one way to reduce the heightof the tree is to definethese trees in a specific range, whichis referred to as aB tree.
+ In binary search trees, each node stores only one item, and the heightof the tree is afactor of ***log* n**. Such trees are inefficient when stored ina secondary storage device (e.g. hard disk) having slow access speed, because nodes that must be read to search are spread all around the address space. Therefore, one way to reduce the heightof the tree is to define these trees in a specific range, whichis referred to as a B tree.
 
 # 1. Code Description
 
@@ -32,7 +32,7 @@ Course project of CSE221 Data Structures, UNIST
 
 **All about b tree. (b-tree, b+tree, b*tree)**
 
-The B tree is useful in places such as file systems and databases.The B+ tree we implemented above complements the slow key traversal in the B tree.Therefore, in this report, we will examine various types of B trees.
+The B tree is useful in places such as file systems and data bases. The B+ tree we implemented above complements the slow key traversal in the B tree.Therefore, in this report, we will examine various types of B trees.
 
 ## 0. Introduce
 
